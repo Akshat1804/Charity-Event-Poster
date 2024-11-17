@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+     font-family: EB  Garamond; 
+    background: linear-gradient(#fff,  #2c9fac);
+}
+
+.page1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.con{
+    width: 30%;
+    height: 90%;
+    background-image: url(bilu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.top{
+    width: 100%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.left{
+    width: 50%;
+}
+
+.left h1{
+    font-size: 40px;
+    color: white;
+    line-height: 60px;
+}
+
+.right{
+    width: 30%;
+    height: 60px;
+    margin-left: 30px;
+    border-top: 2px solid #fff;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.le{
+    width: 8%;
+    height: 70%;
+    border-right: 2px solid white;
+}
+
+.details{
+    margin-left: 20px;
+    width: 100%;
+    height: 70%;
+    padding-top: 50%;
+    display: flex;
+}
+
+.details h1{
+    font-family: serif;
+    color: white;
+}
+
+.light{
+    font-weight: 100;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+
+.detright > button{
+    color: white;
+    background-color: #2d98a4;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: 0.25s ease-in-out;
+}
+
+.detright > button:hover{
+    font-weight: 700;
+    background-color: transparent;
+}
